@@ -1,1 +1,21 @@
-
+kind: Environment
+name: firstbunnyshell
+type: primary
+components:
+    -
+        kind: Application
+        name: streamlit
+        gitRepo: 'https://github.com/budionosan/bunnyshellonlinehackathon.git'
+        gitBranch: main
+        gitApplicationPath: /
+        dockerCompose:
+            build:
+                context: .
+                dockerfile: ./Dockerfile
+            ports:
+                - '8080:8080'
+        hosts:
+            -
+                hostname: 'streamlit-{{ env.base_domain }}'
+                path: /
+                servicePort: 8080
