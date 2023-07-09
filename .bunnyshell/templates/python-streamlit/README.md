@@ -20,7 +20,7 @@ This template also have **Bunnyshell** template file - template.yaml.
 - **stack have package** are is define tags and icons with version.
 - **discoverable** are is can this template is discover (true) or not (false).
 
-## How to use this templates
+## How to use this template
 
 1. Clone https://github.com/budionosan/bunnyshellstackjamhackathon
 2. Upload your `application_default_credentials.json` to Github repository cloned. 
