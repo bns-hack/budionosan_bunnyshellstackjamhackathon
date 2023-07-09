@@ -26,13 +26,13 @@ As an individual, I move quickly to learn generative AI because generative AI is
 8. Because I have a `docker-compose.yml` file, choose "Docker Compose or Package JSON" and click "Get started".
 9. Choose your Github account, also your Github repository, fill the branch name and your root application path (`/docker-compose.yml`) then click "Continue" and click "Continue" again.
 10. Copy **Bunnyshell** environment, create a file called `bunnyshell.yaml` and upload this file to my Github repository that is connected to **Bunnyshell**.
-11. Create a file called `template.yaml` and upload this file to my Github repository that is connected to **Bunnyshell**.
+11. Create a file called `template.yaml` (you can reference to https://documentation.bunnyshell.com/docs/templates-prepare-repository-for-custom-templates) and upload this file to my Github repository that is connected to **Bunnyshell**.
 
 **DEPLOY TO BUNNYSHELL CLUSTER USE CUSTOM TEMPLATES**
 
 12. Click "Templates" then click "Add custom templates". Fill the templates source name, choose your Github account, also your Github repository that already has `bunnyshell.yaml` and `template.yaml` file and fill the branch name.  Click "Add custom templates".
 13. Click your template source name and click "Create environment". Fill the environment name and choose Project then click "Create environment".
-14. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the screenshot in the project media)
+14. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the video in the project media)
 15. After the pipeline is finished, you can click "URLs" and click your URL to a new tab.
 
 ## Challenges I ran into
