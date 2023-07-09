@@ -1,8 +1,7 @@
-name: Python feat Generative AI.
-description: This web application made with Python feat Generative AI for get started with Bunnyshell.
-tags:
-   - python
-icons: [ 'python' ]
+name: Python (Streamlit).
+description: This web application made with Python (Streamlit) for getting started with Bunnyshell.
+tags: [ python ]
+icons: [ python ]
 stack:
   packages:
     - name: Python
