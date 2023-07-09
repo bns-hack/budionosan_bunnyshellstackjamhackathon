@@ -1,6 +1,6 @@
 ## Environment Overview
 
-This template have **Bunnyshell** environment file - bunnyshell.yaml. This nvironment Template is a working Magento 2.4 instance
+This template have **Bunnyshell** environment file - bunnyshell.yaml.
 - **name: firstbunnyshell** are is **Bunnyshell** environment name.
 - **components** are is a definition of the application in the Environment.
   - **kind: Application** are is used for git-stored code that needs to be built.
@@ -22,7 +22,7 @@ This template also have **Bunnyshell** template file - template.yaml.
 
 ## How to use it
 
-
-## Any other information about this template
-
-Because this template use Google Cloud, you must 
+1. Click "Templates" then click "Add custom templates". Fill the templates source name, choose your Github account, also your Github repository that already has `bunnyshell.yaml` and `template.yaml` file and fill the branch name.  Click "Add custom templates".
+2. Click your template source name and click "Create environment". Fill the environment name and choose Project then click "Create environment".
+3. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the screenshot in the project media)
+4. After the pipeline is finished, you can click "URLs" and click your URL to a new tab. 
