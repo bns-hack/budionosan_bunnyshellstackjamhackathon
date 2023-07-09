@@ -20,9 +20,18 @@ This template also have **Bunnyshell** template file - template.yaml.
 - **stack have package** are is define tags and icons with version.
 - **discoverable** are is can this template is discover (true) or not (false).
 
-## How to use it
+## How to use this templates
 
-1. Click "Templates" then click "Add custom templates". Fill the templates source name, choose your Github account, also your Github repository that already has `bunnyshell.yaml` and `template.yaml` file and fill the branch name.  Click "Add custom templates".
-2. Click your template source name and click "Create environment". Fill the environment name and choose Project then click "Create environment".
-3. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the screenshot in the project media)
-4. After the pipeline is finished, you can click "URLs" and click your URL to a new tab. 
+1. Clone https://github.com/budionosan/bunnyshellstackjamhackathon
+2. Upload your `application_default_credentials.json` to Github repository cloned. 
+3. Edit YOUR_PROJECT_ID, YOUR_GCP_LOCATION in `app.py` code and Save.
+4. Click "Templates" then click "Add custom templates". Fill the templates source name, choose your Github account, also your Github repository that already has `bunnyshell.yaml` and `template.yaml` file and fill the branch name.  Click "Add custom templates".
+5. Click your template source name and click "Create environment". Fill the environment name and choose Project then click "Create environment".
+6. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the video in the project media)
+7. After the pipeline is finished, you can click "URLs" and click your URL to a new tab.
+
+## Any other information about this template
+
+Bunnyshell Kubernetes cluster use AWS for running the cluster but I use Google Cloud for development. When I testing for deploy first time, the web application can not running and get notification "Set up ADC (Application Default Credentials)". Therefore, must use ADC for next step. 
+
+If you want try this templates, get ADC on Google Cloud with command `gcloud auth application-default login` then following the instruction to get `application_default_credentials.json` file. Read https://cloud.google.com/docs/authentication/provide-credentials-adc for the information.
