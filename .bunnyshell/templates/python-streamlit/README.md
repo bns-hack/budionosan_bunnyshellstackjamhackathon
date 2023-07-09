@@ -27,7 +27,7 @@ This template also have **Bunnyshell** template file - template.yaml.
 3. Edit YOUR_PROJECT_ID, YOUR_GCP_LOCATION in `app.py` code and Save.
 4. Click "Templates" then click "Add custom templates". Fill the templates source name, choose your Github account, also your Github repository that already has `bunnyshell.yaml` and `template.yaml` file and fill the branch name.  Click "Add custom templates".
 5. Click your template source name and click "Create environment". Fill the environment name and choose Project then click "Create environment".
-6. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress. (You can see the video in the project media)
+6. Click "Deploy", choose "Bunnyshell cluster" for Kubernetes cluster and click "Deploy" then wait for several minutes. You also can click "Pipeline" to see progress.
 7. After the pipeline is finished, you can click "URLs" and click your URL to a new tab.
 
 ## Any other information about this template
