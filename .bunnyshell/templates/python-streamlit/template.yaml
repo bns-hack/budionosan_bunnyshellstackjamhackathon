@@ -1,5 +1,5 @@
 name: Python (Streamlit).
-description: This web application made with Python (Streamlit) for getting started with Bunnyshell.
+description: This template made with Python (Streamlit) for getting started with Bunnyshell.
 tags:
    - python
 icons: [ 'python' ]
