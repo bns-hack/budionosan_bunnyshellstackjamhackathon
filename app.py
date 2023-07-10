@@ -5,8 +5,8 @@ import os
 from google.cloud import aiplatform
 from vertexai.preview.language_models import TextGenerationModel
 
-aiplatform.init(project="atlasxgcp", location="us-central1")
-vertexai.init(project="atlasxgcp", location="us-central1")
+aiplatform.init(project="YOUR_PROJECT_ID", location="YOUR_GCP_LOCATION")
+vertexai.init(project="YOUR_PROJECT_ID", location="YOUR_GCP_LOCATION")
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="application_default_credentials.json"
 
