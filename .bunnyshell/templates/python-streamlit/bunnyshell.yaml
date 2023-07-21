@@ -5,7 +5,7 @@ components:
     -
         kind: Application
         name: streamlit
-        gitRepo: 'https://github.com/budionosan/bunnyshellstackjamhackathon.git'
+        gitRepo: 'https://github.com/bns-hack/budionosan_bunnyshellstackjamhackathon.git'
         gitBranch: main
         gitApplicationPath: /
         dockerCompose:
